@@ -3,6 +3,7 @@ package br.com.javabasico;
 import javax.swing.*;
 
 public class Encapsulamento {
+    //Atributos
     private String Nome;
 
     // Puxando as informações de Name
@@ -10,7 +11,7 @@ public class Encapsulamento {
         return Nome; // retorno do metodo
     }
 
-    // Carregar as Informações
+    // Carregar/Altera as Informações
     public void setNome(String Nome) {
         this.Nome = Nome;
     }
@@ -27,7 +28,7 @@ public class Encapsulamento {
     public static void main(String[] args) {
         Encapsulamento Obj = new Encapsulamento(); // Instância
         //Carregando o Objeto
-        Obj.Nome = JOptionPane.showInputDialog("Digite o Nome: ");
+        Obj.setNome(JOptionPane.showInputDialog("Digite o Nome: ")); // Utilizando o setNome, você preserva o encapsulamento e não acessa a variável diretamente
         Obj.Carregar(Obj.Nome); //Passagem de parêmetro
     }
 }
