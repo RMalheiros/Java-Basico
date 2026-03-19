@@ -1,4 +1,4 @@
-package br.com.javabasico;
+package br.com.javabasico.teoria;
 
 import javax.swing.*;
 

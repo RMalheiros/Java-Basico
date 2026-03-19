@@ -1,4 +1,4 @@
-package br.com.javabasico;
+package br.com.javabasico.exercicios;
 
 public class Exercicio01ClassesAninhadas {
     public void ClasseUm() {
