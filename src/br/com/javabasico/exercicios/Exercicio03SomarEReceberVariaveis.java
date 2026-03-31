@@ -2,7 +2,7 @@ package br.com.javabasico.exercicios;
 
 import javax.swing.*;
 
-public class Exercicio03SomarEReceberVariáveis {
+public class Exercicio03SomarEReceberVariaveis {
     private int Num1;
     private int Num2;
     private int Resultado;
@@ -29,7 +29,10 @@ public class Exercicio03SomarEReceberVariáveis {
     }
 
     public static void main(String[] args) {
-        Exercicio03SomarEReceberVariáveis Objeto03 = new Exercicio03SomarEReceberVariáveis();
-        Objeto03.setNum1(JOptionPane.showInputDialog("Digite um número: "+ int());
+        Exercicio03SomarEReceberVariaveis Objeto03 = new Exercicio03SomarEReceberVariaveis();
+        Objeto03.setNum1(Integer.parseInt(JOptionPane.showInputDialog("Digite um número: ")));
+        Objeto03.setNum2(Integer.parseInt(JOptionPane.showInputDialog("Digite um número: ")));
+        System.out.println(Objeto03.Soma(Objeto03.getNum1(), Objeto03.getNum2()));
+
     }
 }
