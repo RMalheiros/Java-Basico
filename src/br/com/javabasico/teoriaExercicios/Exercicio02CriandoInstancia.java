@@ -1,4 +1,4 @@
-package br.com.javabasico.exercicios;
+package br.com.javabasico.teoriaExercicios;
 
 public class Exercicio02CriandoInstancia {
     int Idade = 15;

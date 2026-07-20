@@ -1,4 +1,4 @@
-package br.com.javabasico.exercicios;
+package br.com.javabasico.teoriaExercicios;
 
 public class Exercicio05Construtor {
     // ATRIBUTOS

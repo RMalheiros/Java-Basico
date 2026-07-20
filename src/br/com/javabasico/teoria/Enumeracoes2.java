@@ -7,7 +7,8 @@ public enum Enumeracoes2 {
 
     private String descricao; // Variável Privada
 
-    Enumeracoes2(String descricao) { // Construtor
+    // CRIAÇÃO DO Construtor
+    Enumeracoes2(String descricao) {
         this.descricao = descricao;
     }
 
@@ -16,10 +17,9 @@ public enum Enumeracoes2 {
         return descricao;
     }
 
-
     public static void main(String[] args) {
-        for (Enumeracoes2 DESCRICAO:Enumeracoes2.values()){
-            System.out.println(DESCRICAO.getDescricao());
+        for (Enumeracoes2 item:Enumeracoes2.values()){
+            System.out.println(item.getDescricao());
         }
     }
 }
